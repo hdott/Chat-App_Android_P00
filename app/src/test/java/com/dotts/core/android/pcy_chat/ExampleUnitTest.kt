@@ -1,4 +1,4 @@
-package com.bignerdranch.android.test
+package com.dotts.core.android.pcy_chat
 
 import org.junit.Test
 
