@@ -21,7 +21,8 @@
             android:layout_gravity="top"
             android:gravity="center"
             android:padding="10dp"
-            android:text="@string/username_editText" />
+            android:text="@string/username_editText"
+            android:selectAllOnFocus="true"/>
 
         <EditText
             android:id="@+id/password_editText"
@@ -29,9 +30,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:gravity="center"
-            android:inputType="textVisiblePassword"
+            android:inputType="textWebPassword"
             android:padding="10dp"
-            android:text="@string/password_editText" />
+            android:text="@string/password_editText"
+            android:selectAllOnFocus="true"/>
 
     </LinearLayout>
 
@@ -42,7 +44,6 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/authenticate_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -50,11 +51,11 @@
             android:onClick="authenticateUser"/>
 
         <Button
-            android:id="@+id/register_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/register_button" />
+            android:text="@string/register_button"
+            android:onClick="startRegisterProcess"/>
 
 
     </LinearLayout>

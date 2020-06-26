@@ -15,23 +15,35 @@
 
 
         <EditText
-            android:id="@+id/username_editText"
+            android:id="@+id/usernameRegister_editText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="top"
             android:gravity="center"
             android:padding="10dp"
-            android:text="@string/username_editText" />
+            android:text="@string/username_editText"
+            android:selectAllOnFocus="true"/>
 
         <EditText
-            android:id="@+id/password_editText"
+            android:id="@+id/fullNameRegister_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/fullName_editText"
+            android:selectAllOnFocus="true"/>
+
+        <EditText
+            android:id="@+id/passwordRegister_editText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:gravity="center"
-            android:inputType="textVisiblePassword"
+            android:inputType="textWebPassword"
             android:padding="10dp"
-            android:text="@string/password_editText" />
+            android:text="@string/password_editText"
+            android:selectAllOnFocus="true"/>
 
     </LinearLayout>
 
@@ -49,11 +61,11 @@
             android:text="@string/return_button" />
 
         <Button
-            android:id="@+id/register_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/register_button" />
+            android:text="@string/register_button"
+            android:onClick="registerUser"/>
 
 
     </LinearLayout>

@@ -5,4 +5,9 @@
     <string name="authenticate_button">Authenticate</string>
     <string name="register_button">Register</string>
     <string name="return_button">Return</string>
+    <string name="fullName_editText">Full Name</string>
+    <string name="button_fragmentOnlineUsers">Online Users</string>
+    <string name="button_fragmentGlobalChat">Global Chat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Online Users</string>
 </resources>
